@@ -78,3 +78,4 @@ class Episode(Base):
     def __repr__(self):
         """ Return string representation of object """
         return f'<Episode {self.title}>'
+    return f'<Episode {self.column_name}>'
